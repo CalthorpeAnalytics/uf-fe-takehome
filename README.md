@@ -3,7 +3,7 @@
 Thank you for your interest in pursuing a frontend development position with
 Urban Footprint!
 
-You will have 72 hours to complete upon receiving this exercise. Should you have any questions, please contact <bradley.bossard@urbanfootprint.com>
+You will have 72 hours to complete upon receiving this exercise. Should you have any questions, please contact <tim.cull@urbanfootprint.com>
 
 We expect that this exercise should take roughly two hours to complete. If you find it is taking significantly longer, please get in touch because there may have been some miscommunication or misunderstanding that we'd like to rectify!
 
@@ -45,4 +45,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.
 You will also see any lint errors in the console.
 
-Please submit your submission as a pull request and assign it to user `bradley-uf`. 
+Please submit your exercise by sending us a link to your forked repo (make sure it's publicly visible!)
+
