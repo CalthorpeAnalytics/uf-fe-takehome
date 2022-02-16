@@ -23,9 +23,9 @@ The initial state of the app is a fullscreen map with a series of map pins displ
 
 The goals of this exercise are as follows:
 
-1.  Change the functionality of the first numeric input field such than it's value is used to define a bounding square (i.e. a bounding box with equal length sides).  The center of the square is the centroid of the latitude/longitude properties all the cities in cities list.  Use this bounding square to filter out cities outside of square, and only display cities that lie within the boundary.
+1.  Change the functionality of the first numeric input field such than its value is used to define a bounding square (i.e. a bounding box with equal length sides).  The center of the square is the centroid ("the point whose coordinates are the mean values of the coordinates of the points of the set") of the latitude/longitude properties all the cities in cities list.  Use this bounding square to filter out cities outside of square, and only display cities that lie within the boundary.
 
-2.  Change the functionality of the second text input field such that it's value can be used to filter out only cities whose `name` property contains the substring defined in
+2.  Change the functionality of the second text input field such that its value can be used to filter out only cities whose `name` property contains the substring defined in
 the text input.  This match should be case-insensitive.
 
 A working implementation of the solution can be seen [here](https://calthorpeanalytics.github.io/uf-fe-takehome-solution/).  As the length of the sides are decreased, the size of the bounding square descreases and filters out cities.  As text is typed in the city name filter, first 'd' for Denver or Dallas, then 'de' for only
