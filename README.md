@@ -27,6 +27,7 @@ The goals of this exercise are as follows:
 
 2.  Change the functionality of the second text input field such that its value can be used to filter out only cities whose `name` property contains the substring defined in
 the text input.  This match should be case-insensitive.
+    1. Question: Does the filter substring need to be a substring of the city name, or do we look for the presence of each character? Does character order matter?
 
 A working implementation of the solution can be seen [here](https://calthorpeanalytics.github.io/uf-fe-takehome-solution/).  As the length of the sides are decreased, the size of the bounding square descreases and filters out cities.  As text is typed in the city name filter, first 'd' for Denver or Dallas, then 'de' for only
 Denver.
